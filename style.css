@@ -1,0 +1,105 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    border: 2px sloid black !important;
+    
+}
+
+body{
+    background-color: hsl(0, 100%, 74%) ;
+    background-image: url('./images/bg-intro-desktop.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-section{
+    height: 100vh;
+}
+
+.heading{
+    font-size: 35pt;
+}
+
+.bg-blue{
+    background-color: hsl(248, 32%, 49%); 
+}
+.bg-red{
+    color: hsl(0, 100%, 74%);
+}
+
+
+#submit-btn{
+    background-color: hsl(154, 59%, 51%);
+    border-bottom: 4px solid  hsl(154, 66%, 33%);
+    border-left: 3px solid  hsl(154, 66%, 33%);
+    border-right: 3px solid  hsl(154, 66%, 33%);
+    border-top: 1px solid  hsl(154, 66%, 33%);
+}
+
+.term-font{
+    color: grey;
+    font-size: 10pt;
+}
+
+.form-input{
+    border: 2px solid lightgray;
+}
+
+.form-input:focus{
+    border: 2px solid blue ;
+    outline: none;
+    box-shadow: none;
+}
+
+.error-msg{
+    display: none;
+    margin-right: 3px;
+    margin-bottom: 10px;
+    height: 16px;
+    display: block;
+    color: red;
+    font-size: 9pt;
+    font-style: italic;
+    text-align: right;
+}
+
+.name-input{
+    position: relative;
+}
+
+.last-name-input{
+    position: relative;
+}
+.email-input{
+    position: relative;
+}
+
+.pass-input{
+    position: relative;
+}
+.warning-icon{
+    display: none;
+    color: hsl(0, 100%, 74%);
+    font-size: 20pt;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+
+
+footer {
+    text-align: center;
+    color: #fff;
+}
+
+.attribution a {
+    color: #fff;
+    
+}
+
+.attribution a:hover{
+    color: hsl(248, 32%, 49%); 
+}
+

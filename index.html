@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <script src="https://kit.fontawesome.com/6ea5d4f02d.js" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Intro component with sign up form</title>
+  
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+</head>
+<body>
+  <main class="container w-100 main-section d-flex justify-content-center align-items-center">
+    <div class="row ">
+      <div class="col-lg-6 px-lg-5 d-flex justify-content-center align-items-center">
+        <div class="text-white ">
+          <h1 class="heading mb-4">Learn to code by <br> watching others</h1>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores, quae. Eius eaque vel, alias, excepturi reiciendis tempora facilis tempore quos ex hic nobis.
+          </p>
+        </div>
+      </div>
+      <div class="col-lg-6 px-5">
+        <div class="w-100">
+          <div class="text-white text-center p-3 mb-4 bg-blue rounded-3 shadow">
+            <span><b>Try it free 7 days </b>then $20/mo. thereafter</span>
+          </div>
+          <div class="reg-form bg-white px-4 py-4 rounded-3 shadow">
+
+            <div class="name-input">
+              <input id="first-name" class="form-input form-control p-3 input-field mt-2" type="text" placeholder="First Name" aria-label="default input example"><i id="warning-name" class="warning-icon fa-solid fa-circle-exclamation"></i>
+              <div id="name-error" class="error-msg"> </div>
+            </div>
+
+            <div class="last-name-input">
+              <input id="second-name" class="form-input form-control p-3 input-field mt-2" type="text" placeholder="Last Name" aria-label="default input example"><i id="warning-last-name" class="warning-icon fa-solid fa-circle-exclamation"></i>
+              <div id="second-error" class="error-msg mt-1 me-1"></div>
+            </div>
+
+            <div class="email-input">
+              <input id="email-field" class="form-input form-control p-3 input-field mt-2" type="text" placeholder="Email Address" aria-label="default input example"><i id="warning-email" class="warning-icon fa-solid fa-circle-exclamation"></i>
+              <div id="email-error" class="error-msg mt-1 me-1"></div>
+            </div>
+
+            <div class="pass-input">
+              <input id="pass-field" class="form-input form-control p-3 input-field mt-2" type="password" placeholder="Password" aria-label="default input example"><i id="warning-pass" class="warning-icon fa-solid fa-circle-exclamation"></i>
+              <div id="pass-error" class="error-msg mt-1 me-1"></div>
+            </div>
+
+            <button id="submit-btn" type="submit" class="btn mt-1 mb-2 fs-5 rounded-3 text-white py-3 w-100">CLAIM YOUR FREE TRIAL</button>
+            
+            <div class="text-center mb-3">
+              <span class="term-font">By clicking the button, you are agreeing our <b class="text-danger">Terms and Services</b></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Rifat Ishtiyak</a>.
+    </p>
+  </footer>
+
+
+  <script src="./app.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
